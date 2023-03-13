@@ -8,10 +8,12 @@ public class ItemCollector : MonoBehaviour
     private int fruit = 0;
 
     [SerializeField] Text fruitText;
+    [SerializeField] AudioSource collectSound;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Fruit"))
         {
+            collectSound.Play();
             Destroy(collision.gameObject);
             fruit++;
             fruitText.text = "Pineapple: " + fruit;
