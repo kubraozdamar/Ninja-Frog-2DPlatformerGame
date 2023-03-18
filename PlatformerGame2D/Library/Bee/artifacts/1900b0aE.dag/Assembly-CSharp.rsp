@@ -347,6 +347,7 @@
 "Assets/Scripts/PlayerLife.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/Rotate.cs"
+"Assets/Scripts/StartMenu.cs"
 "Assets/Scripts/StickyPlatform.cs"
 "Assets/Scripts/WayPointFollower.cs"
 -langversion:8.0
